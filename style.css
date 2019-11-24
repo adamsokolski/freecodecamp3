@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+body {
+  height: 2000px;
+  background-color: rgb(255, 255, 255);
+}
+li {
+  list-style: none;
+}
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+#wrapper {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: rgb(204, 204, 204);
+}
+#header-img {
+  max-height: 10vh;
+}
+
+#nav-bar {
+}
+
+#offerBox {
+  display: flex;
+  flex-direction: row;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+#offer {
+  padding: 20px;
+}
+
+#titleOffer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.headerTicket {
+  background-color: rgb(192, 192, 192);
+  padding: 0px;
+  width: 100%;
+  margin: 0px;
+}
+
+.ticket {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: calc(100% / 3);
+  margin: 10px;
+  border: black 1px solid;
+}
+#contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
